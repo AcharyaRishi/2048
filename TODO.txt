@@ -1,0 +1,6 @@
+TODO:
+Create a user interface along with graphics.
+An instructions page in the user interface would make the otherwise-abstract gameplay more intuitive.
+The animations should suggest the motion of the numbers upon user inputs, and should highlight the location of each new prompt.
+2048game.com can be used as a reference for both gameplay and visuals.
+Fix the 'recursion depth exceeded' bug, which appears frequently for 6*6 grids and larger. The current program creates a new instance of the main function from gameplay.py every time valid input is recieved. This method is intuitive, but highly memory-intensive. gameplay.py will need to be rewritten on a 'for' or 'while' loop, but the same core shift and prompt-generating algorithms can remain.
